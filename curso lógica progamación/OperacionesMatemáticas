@@ -1,0 +1,41 @@
+#Ejemplo 2. Operaciones Matemáticas
+
+#ENTRADAS DE DATOS
+#Declarar o crear las variables
+from __future__ import division
+import string
+
+
+número_1 = 10
+número_2 = 2
+#Declarar o crear constantes: Elemento que su valor permanece fijo
+PI = 3.1416
+
+
+#PROCESOS (cálculos y Operaciones Matemáticas y/o Lógicas: if, elif, y else)
+suma = número_1 + número_2
+resta = número_1 - número_2
+multiplicación = número_1 * número_2
+division = número_1	/ número_2
+
+
+#SALIDAS DE DATOS (mostrar los resultados) 
+print("La suma es =", suma)
+print("La suma es = " + str(suma)) # CONCATENACIÓN: Unión de dos o más textos
+#Conversión de un tipo de dato en otro tipo de dato (Casteo)
+print(F"La suma es = {suma}") # Interpolación de textos f : formateo
+
+print("La resta es =", resta)
+print("La resta es = " + str(resta))
+print(F"La resta es = {resta}")
+
+
+
+print("La multiplicación es =", multiplicación)
+print("La multiplicación es = " + str(multiplicación))
+print(F"La multiplicación es = {multiplicación}")
+
+
+print("La division es =", division)
+print("La division es = " + str(division))
+print(F"La division es = {division}")
