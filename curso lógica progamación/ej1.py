@@ -10,9 +10,22 @@ calificación_3 = float(input("Escribe la tercera calificación: "))
 
 #PROCESO 
 
-suma = calificación_1 + calificación_2 + calificación_3
-promedio = suma / 3 
+promedio = (calificación_1 + calificación_2 + calificación_3) / 3
+
+
+
+
 
 #SALIDA DE DATOS 
-
-print(f"El promedio es = {round(promedio, 1)}")
+if(promedio > 6 and promedio <= 10):
+    print("Tu promedio es =", round(promedio , 1))
+    print("APROBADO")
+elif(promedio == 6):
+    print("Tu promedio =", round(promedio , 1))
+    print("APROBADO DE PANSASO")
+elif(promedio >= 0 and promedio < 6):
+    print("Tu promedio =", round(promedio , 1))
+    print("REPROBADO")
+else:
+    print("PROMEDIO INVALIDO")
+    
